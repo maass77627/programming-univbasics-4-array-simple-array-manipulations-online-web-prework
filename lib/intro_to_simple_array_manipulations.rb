@@ -16,9 +16,9 @@ one = array.pop(2)
 p one
 end
 
-def using_pop_with_args(array)
+def using_pop_with_args(array,2)
 array=[1,2,3,4]
-one = array.pop(2)
+array.pop(2)
 p array
 end
 
