@@ -10,10 +10,11 @@ def using_pop(array)
 array.pop
 end
 
-def using_pop_with_args(array,two)
+def using_pop_with_args(array)
 array=[1,2,3,4]
 one = array.pop(2)
-array
+p one
+p array
 end
 
 
