@@ -12,13 +12,13 @@ end
 
 def using_pop_with_args(array)
 array=[1,2,3,4]
-one = array.pop(2)
-p one
+array.pop(2)
 end
 
 def using_pop_with_args(array)
 array=[1,2,3,4]
 array.pop(2)
+p array
 end
 
 
